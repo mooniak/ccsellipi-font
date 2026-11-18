@@ -1,0 +1,9 @@
+# CC Sellipi deviations from the FM Abhaya layout (encodings/fm-abhaya.tsv in mooniak-font-tools).
+# Each was checked by rendering the glyph next to its FM neighbours (2026-11-18). Same columns as the table.
+key	unicode	text	role	name	context	note
+C	U+0D9A U+0DCA U+200D U+0DC2	ක්‍ෂ	alt	kSsa-sinh.alt1		CC Sellipi draws a whole ක්‍ෂ here (almost the same drawing as Ë), not FM's touching ක්‍ part; so Cj CI CO are not composed. A second ක්‍ෂ that nothing reaches. Visual
+J	U+0DB1 U+0DCA U+200D U+0DAF	න්‍ද				CC Sellipi draws the whole conjunct න්‍ද here (න running into ද's tail; `JO` renders න්‍ද + ධ), not FM's touching න්‍ part. FM's own න්‍ද slot ‡ is not in the font. Visual, medium confidence: designer to confirm
+_	U+0DBB U+0DCA U+200D	ර්‍		repha-sinh		Repaya. FM types it after the consonant (Pandukabhaya combos l_ = ර්‍ක, k_ = ර්‍න ...), but the table has no single row for _. Drawn to overprint the letter before it; the rphf rule is added after the port
+)	U+E000		latin	ornament		CC Sellipi: a zigzag line ornament on ) (FM: *). Kept typable on PUA U+E000; designer to decide
+©	U+E001		latin			CC Sellipi: a letter-like drawing on © (FM has nothing there): ය with a loop on top, perhaps යි, or ඤ, which the font lacks. Kept typable on PUA U+E001; designer to decide
+½	U+0D9C	ග	alt	ga-sinh.alt1		CC Sellipi draws a ග-like letter with an inner curl here, not a visarga (FM: a second ඃ). Not the same as ග (.) or ඟ (Õ). Nothing reaches it. Visual, low confidence: designer to decide

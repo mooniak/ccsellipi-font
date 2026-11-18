@@ -1,0 +1,40 @@
+{
+glyphname = "tVa-sinh";
+layers = (
+{
+anchors = (
+{
+name = iisign;
+pos = (949,0);
+},
+{
+name = isign;
+pos = (949,0);
+},
+{
+name = usign;
+pos = (949,0);
+},
+{
+name = uusign;
+pos = (949,0);
+},
+{
+name = virama;
+pos = (949,0);
+}
+);
+layerId = 00CA9B91-5064-44D5-8676-8AC2BBC0C294;
+shapes = (
+{
+ref = "t-sinh.touch";
+},
+{
+pos = (436,0);
+ref = "va-sinh";
+}
+);
+width = 949;
+}
+);
+}
