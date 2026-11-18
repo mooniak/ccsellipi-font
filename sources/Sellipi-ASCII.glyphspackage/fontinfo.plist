@@ -1,0 +1,261 @@
+{
+.appVersion = "895";
+.formatVersion = 3;
+classes = (
+{
+code = "asterisk comma period colon semicolon less greater W w u k l m t T y n o p r q v s x Y j i h g f e d c b a V U S B D E G H I K L M N O P R A equal exclam acute yen uacute ugrave otilde odieresis ocircumflex Eacute Adieresis Aring Ccedilla Udieresis agrave Oacute Ograve Otilde Odieresis Ocircumflex Ntilde acircumflex atilde adieresis igrave iacute icircumflex idieresis eth ntilde ccedilla egrave eacute oacute divide AE questiondown Q plus percent braceleft oslash dieresis threequarters Iacute germandbls ordfeminine ydieresis cent sterling Egrave section registered Agrave Aacute Edieresis bar asciitilde ecircumflex edieresis Thorn aacute zero one two three four five six seven eight nine question at slash hyphen F C J X z grave space underscore asciicircum ampersand quotesingle parenleft parenright braceright onehalf Z quotedbl numbersign dollar bracketright copyright guillemotleft logicalnot uni00AD";
+name = GDEF_Simple;
+}
+);
+customParameters = (
+{
+name = hheaAscender;
+value = 808;
+},
+{
+name = hheaDescender;
+value = -502;
+},
+{
+name = hheaLineGap;
+value = 90;
+},
+{
+name = fsType;
+value = (
+1
+);
+},
+{
+name = typoAscender;
+value = 800;
+},
+{
+name = typoDescender;
+value = -200;
+},
+{
+name = typoLineGap;
+value = 90;
+},
+{
+name = isFixedPitch;
+value = 0;
+},
+{
+name = versionString;
+value = "Version 1.000";
+},
+{
+name = vendorID;
+value = PfEd;
+},
+{
+name = postscriptFullName;
+value = "Ceylone Caligraphy";
+},
+{
+name = postscriptFontName;
+value = Sellipi;
+},
+{
+name = openTypeOS2FamilyClass;
+value = (
+0,
+0
+);
+},
+{
+name = postscriptWeightName;
+value = Regular;
+},
+{
+name = styleMapFamilyName;
+value = "Ceylone Caligraphy";
+},
+{
+name = winAscent;
+value = 808;
+},
+{
+name = winDescent;
+value = 502;
+},
+{
+name = weightClass;
+value = 400;
+},
+{
+name = widthClass;
+value = 5;
+}
+);
+date = "2019-05-30 09:46:11 +0000";
+familyName = CCSellipi;
+featurePrefixes = (
+{
+code = "#Mark attachment classes (defined in GDEF, used in lookupflags)
+";
+name = "<anonymous>";
+},
+{
+code = "table GDEF {
+  GlyphClassDef @GDEF_Simple, , , ;
+
+} GDEF;
+";
+name = "<anonymous>";
+}
+);
+fontMaster = (
+{
+customParameters = (
+{
+name = hheaAscender;
+value = 808;
+},
+{
+name = hheaDescender;
+value = -502;
+},
+{
+name = hheaLineGap;
+value = 90;
+},
+{
+name = fsType;
+value = (
+1
+);
+},
+{
+name = typoAscender;
+value = 800;
+},
+{
+name = typoDescender;
+value = -200;
+},
+{
+name = typoLineGap;
+value = 90;
+},
+{
+name = isFixedPitch;
+value = 0;
+},
+{
+name = versionString;
+value = "Version 1.000";
+},
+{
+name = vendorID;
+value = PfEd;
+},
+{
+name = postscriptFullName;
+value = "Ceylone Caligraphy";
+},
+{
+name = postscriptFontName;
+value = Sellipi;
+},
+{
+name = openTypeOS2FamilyClass;
+value = (
+0,
+0
+);
+},
+{
+name = postscriptWeightName;
+value = Regular;
+},
+{
+name = styleMapFamilyName;
+value = "Ceylone Caligraphy";
+},
+{
+name = winAscent;
+value = 808;
+},
+{
+name = winDescent;
+value = 502;
+},
+{
+name = weightClass;
+value = 400;
+},
+{
+name = widthClass;
+value = 5;
+}
+);
+id = "00CA9B91-5064-44D5-8676-8AC2BBC0C294";
+metricValues = (
+{
+over = 0;
+pos = 800;
+},
+{
+over = 0;
+},
+{
+over = 0;
+},
+{
+over = 0;
+},
+{
+over = 0;
+pos = -200;
+}
+);
+name = Regular;
+userData = {
+com.schriftgestaltung.Glyphs.ufoNote = "2019-5-30: Created with FontForge (http://fontforge.org)";
+};
+}
+);
+instances = (
+{
+axesValues = (
+);
+name = Regular;
+}
+);
+kerningLTR = {
+};
+metrics = (
+{
+type = ascender;
+},
+{
+type = "cap height";
+},
+{
+type = "x-height";
+},
+{
+type = baseline;
+},
+{
+type = descender;
+},
+{
+type = "italic angle";
+}
+);
+properties = (
+{
+key = copyrights;
+value = "Copyright (c) 2019, Welikala";
+}
+);
+stems = (
+);
+unitsPerEm = 1000;
+versionMajor = 1;
+versionMinor = 0;
+}
