@@ -1,0 +1,179 @@
+{
+  "id": "ccsellipi",
+  "family": "CCSellipi",
+  "scripts": [
+    "Sinh"
+  ],
+  "version": "1.000",
+  "channel": "canary",
+  "commit": "d2bc75ce75a55047741526f7aa9f1bada89511e3",
+  "commit_short": "d2bc75c",
+  "ref_name": "dev",
+  "repository": "mooniak/ccsellipi-font",
+  "run_url": "https://github.com/mooniak/ccsellipi-font/actions/runs/44368579645",
+  "actor": "pathumego",
+  "generated_at": "2026-11-18T18:21:20Z",
+  "qa": {
+    "profile": "googlefonts",
+    "verdict": "fail",
+    "pass_rate": 68,
+    "counts": {
+      "FAIL": 4,
+      "WARN": 19,
+      "SKIP": 86,
+      "INFO": 20,
+      "PASS": 93
+    },
+    "total_checks": 222
+  },
+  "stage": {
+    "n": 0,
+    "name": "System",
+    "cumulative": 0,
+    "total": 110,
+    "gate_met": true,
+    "kernel_checkable_complete": false,
+    "kernel_complete": null,
+    "unverified_kernel_entries": [
+      "classic-conjuncts",
+      "conjunct-i-forms",
+      "ksha",
+      "rakaransaya",
+      "repaya",
+      "yansaya"
+    ]
+  },
+  "files": [
+    {
+      "path": "fonts/otf/CCSellipiCANARY-Regular.otf",
+      "format": "otf",
+      "bytes": 41792,
+      "sha256": "dae61327d4cc93c77db12b11509024a64e0613005a48ee74698c6fae7d6f1e7c",
+      "style": "Regular",
+      "kind": "static"
+    },
+    {
+      "path": "fonts/ttf/CCSellipiCANARY-Regular.ttf",
+      "format": "ttf",
+      "bytes": 66100,
+      "sha256": "db4ad37031078efa9e16584b0f69e5a0cdd07a7047e386b9531abc1badafd03d",
+      "style": "Regular",
+      "kind": "static"
+    },
+    {
+      "path": "fonts/webfonts/CCSellipiCANARY-Regular.woff2",
+      "format": "woff2",
+      "bytes": 33860,
+      "sha256": "20dc0b3e50cbd16ce7ab80a17169879b9c870888d34158cbf4be1d411c8e13a7",
+      "style": "Regular",
+      "kind": "static"
+    }
+  ],
+  "proof_gate": {
+    "stage": 0,
+    "gated": true,
+    "shown": [],
+    "withheld": [
+      [
+        "classical-texts",
+        9
+      ],
+      [
+        "conjuncts",
+        9
+      ],
+      [
+        "devanagari-pangram",
+        9
+      ],
+      [
+        "display-strings",
+        4
+      ],
+      [
+        "indo-arabic-numerals",
+        4
+      ],
+      [
+        "kern-pairs",
+        3
+      ],
+      [
+        "libreoffice-ui-strings",
+        4
+      ],
+      [
+        "marks",
+        5
+      ],
+      [
+        "mixed-script",
+        9
+      ],
+      [
+        "multiscript",
+        9
+      ],
+      [
+        "numerals",
+        4
+      ],
+      [
+        "ot-features",
+        9
+      ],
+      [
+        "pali-and-sanskrit-words",
+        9
+      ],
+      [
+        "prose",
+        4
+      ],
+      [
+        "punctuation",
+        4
+      ],
+      [
+        "rakar",
+        9
+      ],
+      [
+        "shape-groups",
+        1
+      ],
+      [
+        "signs-combinations",
+        5
+      ],
+      [
+        "sinhala-alphabet",
+        1
+      ],
+      [
+        "sinhala-pangram",
+        3
+      ],
+      [
+        "spacing_strings",
+        1
+      ],
+      [
+        "structured-texts",
+        4
+      ],
+      [
+        "tamil-pangram",
+        9
+      ],
+      [
+        "test-texts-stages",
+        1
+      ]
+    ],
+    "missing_for_next": [
+      "fam-i-tthi"
+    ],
+    "scripts": []
+  }
+}
