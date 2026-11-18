@@ -3,85 +3,13 @@
 .formatVersion = 3;
 customParameters = (
 {
-name = hheaAscender;
-value = 808;
-},
-{
-name = hheaDescender;
-value = -502;
-},
-{
-name = hheaLineGap;
-value = 90;
-},
-{
 name = fsType;
 value = (
-1
 );
-},
-{
-name = typoAscender;
-value = 800;
-},
-{
-name = typoDescender;
-value = -200;
-},
-{
-name = typoLineGap;
-value = 90;
-},
-{
-name = isFixedPitch;
-value = 0;
-},
-{
-name = versionString;
-value = "Version 1.000";
 },
 {
 name = vendorID;
-value = PfEd;
-},
-{
-name = postscriptFullName;
-value = "Ceylone Caligraphy";
-},
-{
-name = postscriptFontName;
-value = Sellipi;
-},
-{
-name = openTypeOS2FamilyClass;
-value = (
-0,
-0
-);
-},
-{
-name = postscriptWeightName;
-value = Regular;
-},
-{
-name = styleMapFamilyName;
-value = "Ceylone Caligraphy";
-},
-{
-name = winAscent;
-value = 808;
-},
-{
-name = winDescent;
-value = 502;
-},
-{
-name = weightClass;
-value = 400;
-},
-{
-name = widthClass;
-value = 5;
+value = MNIK;
 }
 );
 date = "2019-05-30 09:46:11 +0000";
@@ -254,85 +182,40 @@ fontMaster = (
 {
 customParameters = (
 {
+name = "Use Typo Metrics";
+value = 1;
+},
+{
 name = hheaAscender;
-value = 808;
+value = 900;
 },
 {
 name = hheaDescender;
-value = -502;
+value = -510;
 },
 {
 name = hheaLineGap;
-value = 90;
-},
-{
-name = fsType;
-value = (
-1
-);
-},
-{
-name = typoAscender;
-value = 800;
-},
-{
-name = typoDescender;
-value = -200;
-},
-{
-name = typoLineGap;
-value = 90;
-},
-{
-name = isFixedPitch;
 value = 0;
 },
 {
-name = versionString;
-value = "Version 1.000";
+name = typoAscender;
+value = 900;
 },
 {
-name = vendorID;
-value = PfEd;
+name = typoDescender;
+value = -510;
 },
 {
-name = postscriptFullName;
-value = "Ceylone Caligraphy";
-},
-{
-name = postscriptFontName;
-value = Sellipi;
-},
-{
-name = openTypeOS2FamilyClass;
-value = (
-0,
-0
-);
-},
-{
-name = postscriptWeightName;
-value = Regular;
-},
-{
-name = styleMapFamilyName;
-value = "Ceylone Caligraphy";
+name = typoLineGap;
+value = 0;
 },
 {
 name = winAscent;
-value = 808;
+value = 900;
 },
 {
 name = winDescent;
-value = 502;
-},
-{
-name = weightClass;
-value = 400;
-},
-{
-name = widthClass;
-value = 5;
+value = 510;
 }
 );
 id = "00CA9B91-5064-44D5-8676-8AC2BBC0C294";
@@ -356,9 +239,6 @@ pos = -200;
 }
 );
 name = Regular;
-userData = {
-com.schriftgestaltung.Glyphs.ufoNote = "2019-5-30: Created with FontForge (http://fontforge.org)";
-};
 }
 );
 instances = (
@@ -393,7 +273,51 @@ type = "italic angle";
 properties = (
 {
 key = copyrights;
-value = "Copyright (c) 2019, Welikala";
+values = (
+{
+language = dflt;
+value = "Copyright 2019 The CCSellipi Project Authors (https://github.com/mooniak/ccsellipi-font)";
+}
+);
+},
+{
+key = designers;
+values = (
+{
+language = dflt;
+value = "Damith Welikala";
+}
+);
+},
+{
+key = manufacturers;
+values = (
+{
+language = dflt;
+value = mooniak;
+}
+);
+},
+{
+key = licenses;
+values = (
+{
+language = dflt;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://openfontlicense.org";
+}
+);
+},
+{
+key = designerURL;
+value = "http://www.mooniak.com/";
+},
+{
+key = manufacturerURL;
+value = "https://mooniak.com/";
+},
+{
+key = licenseURL;
+value = "https://openfontlicense.org";
 }
 );
 stems = (
