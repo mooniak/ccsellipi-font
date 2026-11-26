@@ -1,0 +1,83 @@
+[
+ {
+  "family": "CCSellipi",
+  "commit": "7bc1b9c6a38937b34776dcec08f97512ca70a1ad",
+  "commit_short": "7bc1b9c",
+  "version": "1.000",
+  "generated_at": "2026-11-26T15:18:01Z",
+  "stage": {
+   "n": 0,
+   "name": "System",
+   "cumulative": 0,
+   "total": 110,
+   "gate_met": true,
+   "kernel_checkable_complete": false,
+   "kernel_complete": null,
+   "unverified_kernel_entries": [
+    "classic-conjuncts",
+    "conjunct-i-forms",
+    "ksha",
+    "rakaransaya",
+    "repaya",
+    "yansaya"
+   ]
+  },
+  "qa": {
+   "profile": "mooniak",
+   "verdict": "warn",
+   "pass_rate": 75,
+   "counts": {
+    "WARN": 14,
+    "SKIP": 51,
+    "INFO": 12,
+    "PASS": 80
+   },
+   "total_checks": 157
+  },
+  "run_url": "https://github.com/mooniak/ccsellipi-font/actions/runs/45847512329",
+  "ref_name": "dev",
+  "channel": "canary",
+  "repository": "mooniak/ccsellipi-font"
+ },
+ {
+  "family": "CCSellipi",
+  "commit": "d2bc75ce75a55047741526f7aa9f1bada89511e3",
+  "commit_short": "d2bc75c",
+  "version": "1.000",
+  "generated_at": "2026-11-18T18:21:20Z",
+  "stage": {
+   "n": 0,
+   "name": "System",
+   "cumulative": 0,
+   "total": 110,
+   "gate_met": true,
+   "kernel_checkable_complete": false,
+   "kernel_complete": null,
+   "unverified_kernel_entries": [
+    "classic-conjuncts",
+    "conjunct-i-forms",
+    "ksha",
+    "rakaransaya",
+    "repaya",
+    "yansaya"
+   ]
+  },
+  "qa": {
+   "profile": "googlefonts",
+   "verdict": "fail",
+   "pass_rate": 68,
+   "counts": {
+    "FAIL": 4,
+    "WARN": 19,
+    "SKIP": 86,
+    "INFO": 20,
+    "PASS": 93
+   },
+   "total_checks": 222
+  },
+  "run_url": "https://github.com/mooniak/ccsellipi-font/actions/runs/44368579645",
+  "ref_name": "dev",
+  "channel": "canary",
+  "repository": "mooniak/ccsellipi-font"
+ }
+]
